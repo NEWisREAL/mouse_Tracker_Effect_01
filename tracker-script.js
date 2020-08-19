@@ -3,7 +3,10 @@ const CIRCLE = document.querySelector('.circle');
 const CIRCLE2 = document.querySelector('.circle2');
 const CIRCLE3 = document.querySelector('.circle3');
 const CIRCLE4 = document.querySelector('.circle4');
-
+const CIRCLE5 = document.querySelector('.circle5');
+const CIRCLE6 = document.querySelector('.circle6');
+const CIRCLE7 = document.querySelector('.circle7');
+const CIRCLE8 = document.querySelector('.circle8');
 var windowWidth = window.innerWidth;
 var windowHeight = window.innerHeight;
 
@@ -26,6 +29,16 @@ function mouseCoordinates(e) {
     CIRCLE3.style.top = vrMrPos + 'px';
     CIRCLE4.style.left = hrPos + 'px';
     CIRCLE4.style.top = vrPos + 'px';
+    
+    //Outside
+    CIRCLE5.style.left = hrPos /2 + 'px';
+    CIRCLE5.style.top = vrMrPos /2 + 'px';
+    CIRCLE6.style.left = hrMrPos /2 + 'px';
+    CIRCLE6.style.top = vrPos /2 + 'px';
+    CIRCLE7.style.left = hrMrPos /2 + 'px';
+    CIRCLE7.style.top = vrMrPos /2 + 'px';
+    CIRCLE8.style.left = hrPos /2 + 'px';
+    CIRCLE8.style.top = vrPos /2 + 'px';
 }
 
 function changeColorOnTouch() {
